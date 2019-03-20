@@ -1,3 +1,4 @@
 # questionBanks
 question bank
-https://github.com/hughjin/questionBanks.git
+
+https://leetcode-cn.com/problemset/algorithms/
