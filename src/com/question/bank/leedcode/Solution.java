@@ -30,7 +30,7 @@ class Solution {
 			for (int k = i + 1; k < nums.length; k++) {
 				if (nums[k] == target - nums[i]) {
 					map.put(i, k);
-					System.out.println(nums[i] + "+" + nums[k]);
+					System.out.println(nums[i] + ":" + nums[k]);
 				}
 			}
 		}
