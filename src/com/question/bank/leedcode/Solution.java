@@ -20,9 +20,8 @@ class Solution {
 	}
 
 	/**
-	 * ¸ø¶¨Ò»¸öÕûÊýÊý×é nums ºÍÒ»¸öÄ¿±êÖµ target£¬ÇëÄãÔÚ¸ÃÊý×éÖÐÕÒ³öºÍÎªÄ¿±êÖµµÄÄÇ Á½¸ö ÕûÊý£¬²¢·µ»ØËûÃÇµÄÊý×éÏÂ±ê¡£
-	 * Äã¿ÉÒÔ¼ÙÉèÃ¿ÖÖÊäÈë¶ÔÓ¦¶à¸ö´ð°¸¡£µ«ÊÇ£¬Äã²»ÄÜÖØ¸´ÀûÓÃÕâ¸öÊý×éÖÐÍ¬ÑùµÄÔªËØ¡£
-	 *
+	 * ç»™å®šä¸€ä¸ªæ•´æ•°æ•°ç»„ nums å’Œä¸€ä¸ªç›®æ ‡å€¼ targetï¼Œè¯·ä½ åœ¨è¯¥æ•°ç»„ä¸­æ‰¾å‡ºå’Œä¸ºç›®æ ‡å€¼çš„é‚£ ä¸¤ä¸ª æ•´æ•°ï¼Œå¹¶è¿”å›žä»–ä»¬çš„æ•°ç»„ä¸‹æ ‡ã€‚
+	 * ä½ å¯ä»¥å‡è®¾æ¯ç§è¾“å…¥å¯¹åº”å¤šä¸ªç­”æ¡ˆã€‚ä½†æ˜¯ï¼Œä½ ä¸èƒ½é‡å¤åˆ©ç”¨è¿™ä¸ªæ•°ç»„ä¸­åŒæ ·çš„å…ƒç´ ã€‚
 	 */
 	public static int[] twoSum(int[] nums, int target) {
 		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
@@ -47,9 +46,8 @@ class Solution {
 	}
 
 	/**
-	 * ¸ø¶¨Ò»¸öÕûÊýÊý×é nums ºÍÒ»¸öÄ¿±êÖµ target£¬ÇëÄãÔÚ¸ÃÊý×éÖÐÕÒ³öºÍÎªÄ¿±êÖµµÄÄÇ Á½¸ö ÕûÊý£¬²¢·µ»ØËûÃÇµÄÊý×éÏÂ±ê¡£
-	 * Äã¿ÉÒÔ¼ÙÉèÃ¿ÖÖÊäÈëÖ»»á¶ÔÓ¦Ò»¸ö´ð°¸¡£µ«ÊÇ£¬Äã²»ÄÜÖØ¸´ÀûÓÃÕâ¸öÊý×éÖÐÍ¬ÑùµÄÔªËØ¡£
-	 *
+	 * ç»™å®šä¸€ä¸ªæ•´æ•°æ•°ç»„ nums å’Œä¸€ä¸ªç›®æ ‡å€¼ targetï¼Œè¯·ä½ åœ¨è¯¥æ•°ç»„ä¸­æ‰¾å‡ºå’Œä¸ºç›®æ ‡å€¼çš„é‚£ ä¸¤ä¸ª æ•´æ•°ï¼Œå¹¶è¿”å›žä»–ä»¬çš„æ•°ç»„ä¸‹æ ‡ã€‚
+	 * ä½ å¯ä»¥å‡è®¾æ¯ç§è¾“å…¥åªä¼šå¯¹åº”ä¸€ä¸ªç­”æ¡ˆã€‚ä½†æ˜¯ï¼Œä½ ä¸èƒ½é‡å¤åˆ©ç”¨è¿™ä¸ªæ•°ç»„ä¸­åŒæ ·çš„å…ƒç´ ã€‚
 	 */
 	public static int[] twoSum2(int[] nums, int target) {
 		int[] result = new int[2];
